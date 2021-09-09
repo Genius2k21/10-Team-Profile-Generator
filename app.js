@@ -147,3 +147,39 @@ const promptUser = () => {
     .then(function() {
     });
 };
+const addNext = () => {
+    inquirer
+      .prompt([
+        {
+          type: "list",
+        name: "add",
+        message: "Would You Like To Add Another Employee?",
+        choices: ["Yes", "No"]
+        }
+      ])
+      .then(function(res) {
+        if (res.add === "Yes") {
+          promptUser();
+        } else {
+          console.log("Done");
+          completedRoster(employees);
+        }
+      });
+  };
+  
+  function completedRoster(employees){
+      console.log("Success!");
+      console.log(employees);
+      const html = generateHTML(employees);
+      console.log(html);
+      writeFileAsync("./output/employees.html", html, "utf-8");
+  }
+  
+  function init(){
+    console.log("Please enter employee info")
+    promptUser();
+  }
+  
+  init();
+  
+  // require("./output/employees.html")(app);
