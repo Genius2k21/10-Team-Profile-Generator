@@ -5,8 +5,8 @@
 ![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
 ## Description
 A command line application that implements the inquirer npm package to prompt questions to the user about project information. It then uses that information to generate a professional README file.
-
 ![image](https://user-images.githubusercontent.com/85536828/132800232-1fa0b347-3c3f-4c3e-9c60-3f0612d9299c.png)
+Assets/10-Team-Profile-Generator-Walk-Through-Video.webm 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
