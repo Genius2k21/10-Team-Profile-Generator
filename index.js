@@ -12,11 +12,11 @@ var options = {
 };
 
 //Module Imports
-const Employee = require("./lib/Employee.js");
-const Engineer = require("./lib/Engineer.js");
-const Intern = require("./lib/Intern.js");
-const Manager = require("./lib/Manager.js");
-const generateHTML = require("./output/generateHTML.js");
+const Employee = require("./lib/employee");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
+const Manager = require("./lib/Manager"); 
+const generateHTML = require("./output/generateHTML");
 
 // Sets up the Express App
 // =============================================================
