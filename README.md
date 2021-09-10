@@ -6,7 +6,7 @@
 ## Description
 A command line application that implements the inquirer npm package to prompt questions to the user about project information. It then uses that information to generate a professional README file.
 
-https://github.com/Genius2k21/10-Team-Profile-Generator/blob/969d26202e4c4590584c821700f1ae6e115f6df3/Assets/image_2021-09-10_003220.png
+![image](https://user-images.githubusercontent.com/85536828/132800232-1fa0b347-3c3f-4c3e-9c60-3f0612d9299c.png)
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
